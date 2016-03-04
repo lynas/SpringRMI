@@ -10,10 +10,6 @@ import org.springframework.remoting.rmi.RmiProxyFactoryBean;
 @SpringBootApplication
 public class RmitestApplication {
 
-
-
-
-
 	public static void main(String[] args) {
 		ApplicationContext app = SpringApplication.run(RmitestApplication.class, args);
 		RMICaller myBean = app.getBean(RMICaller.class);//get the bean by type
